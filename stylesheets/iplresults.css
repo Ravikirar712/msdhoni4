@@ -1,0 +1,98 @@
+/* styling for background image and overall content of the document */
+body {
+  background: url("../images/ground.jpg");
+  background-size: cover;
+  font: normal 16px/1.5 "Helvetica Neue", sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+  padding-bottom: 50px;
+  margin-top: 40px;
+}
+
+/* styling for navigation bar menu items */
+  /* navigation bar */ 
+#navbar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+  /* navigation bar content - ul */
+  #navbar ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+    /* navigation bar content - individual items - li */
+  #navbar ul li {
+    list-style: none;
+  }
+    /* navigation bar content - link text styling inside li - a */
+  #navbar ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
+  }
+    /* navigation bar content - link text styling inside
+    li - a with hover selector */
+  #navbar ul li a:hover {
+    border-bottom: 3px solid #fff;
+  }
+  
+  /* styling for the introductory content */
+  .intro {
+    padding: 100px 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  font-family: monospace;
+    color: blueviolet;
+  }
+  /* class for styling all labels/captions of form elements */
+  span{
+    display: inline-block;
+    margin: -9px;;
+    font-family: bold;
+    color:black;
+  
+  }
+  #submit {
+    background-color: #3BAF;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border-radius: 12px;
+    border:2px solid #366473;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+  }
+  /* change button style using hover selector */
+  #submit:hover{
+    background-color: #e226e2;
+  }
+  .arrange{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 20px;
+  }#years{
+    position:relative ;
+    left:200px;
+    top:-37px;
+    line-height:40px;
+    border-radius:6px;
+    padding:0 22px;
+    font-size:16px;
+  }  
